@@ -1,2 +1,2 @@
-Master tiedostossa on "plain" boilerplate homman aloittamiseen
-HTML elementeissä on yleisimmät ja helpoimmat elementit reenaamiseen
+Master tiedostossa on kaikki opitut elementit kommentteineen
+Boilerplate tiedostossa perusasiat
