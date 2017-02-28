@@ -4,6 +4,22 @@
 <title>Minun harjoitussivustoni</title>
 </head> <!--sulkee sivuston tieto-otsikon-->
 <body> <!--body eli rakenne elementti aktivoi koodille mahdollisuuden avata sivuston yleisen rakentamisen-->
-
+<h1>Erinomainen HTML-harjoitteluni</h1> <!--html:ssä on kuusi erilaista otsikkoa (h1-h6)-->
+<p>Toistaiseksi tekisi mieli oppia seuraavat koodauskielet</p><!--p=paragraph eli kappale-->
+<ul> <!--Unordered list = listauselementti, mutta ilman järjestystä. Ei vielä auta listan tekemisessä vaan tarvitaan li=list elementti, joka tulee seuraavaksi-->
+  <li>HTML5</li>
+  <li>CSS</li>
+  <li>Java Script</li>
+  <li>Python</li>
+  <li>Drupal</li>
+</ul>
+<p>Ja jos pitäisi valita vähintään kolme, jotka haluaisin oppia niin ne olisivat:</p>
+<ol> <!--Ordered list = järjestysnumerolla oleva lista-->
+  <li>HTML5</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+<!--<a>Tähän tulee linkki Githubin etusivulle</a>, A=anchor elementti, jolla tehdään linkkejä, tarvitsee href attribuutin (URL:n), joka tulee ensimmäisen <a elementin sisään>-->
+<a href="https://github.com/">Github linkki</a>
+</ol>
 </body>
 </html> <!--html koodin sulkeminen-->
