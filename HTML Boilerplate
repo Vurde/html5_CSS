@@ -4,6 +4,26 @@
 <title>Minun harjoitussivustoni</title>
 </head> <!--sulkee sivuston tieto-otsikon-->
 <body> <!--body eli rakenne elementti aktivoi koodille mahdollisuuden avata sivuston yleisen rakentamisen-->
-
+<h1>Erinomainen HTML-harjoitteluni</h1> <!--html:ssä on kuusi erilaista otsikkoa (h1-h6)-->
+<p>Toistaiseksi tekisi mieli oppia seuraavat koodauskielet</p><!--p=paragraph eli kappale-->
+<ul> <!--Unordered list = listauselementti, mutta ilman järjestystä. Ei vielä auta listan tekemisessä vaan tarvitaan li=list elementti, joka tulee seuraavaksi-->
+  <li>HTML5</li><!--VIRALLINEN TAPA TEHDÄ SYVENNYKSIÄ ON KAKSI VÄLILYÖNTIÄ-->
+  <li>CSS</li>
+  <li>Java Script</li>
+  <li>Python</li>
+  <li>Drupal</li>
+</ul>
+<p>Ja jos pitäisi valita vähintään kolme, jotka haluaisin oppia niin ne olisivat:</p>
+<ol> <!--Ordered list = järjestysnumerolla oleva lista-->
+  <li>HTML5</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+<!--<a>Tähän tulee linkki Githubin etusivulle</a>, A=anchor elementti, jolla tehdään linkkejä, tarvitsee href attribuutin (URL:n), joka tulee ensimmäisen <a elementin sisään>-->
+<a href="https://github.com/">Github linkki</a>
+<a href="https://github.com/" target="_blank">Github linkki tabiin</a> <!--tässä target= elementillä voidaan avata linkit uusiin ikkunoihin ja tabeihin-->
+<img src="https://yt3.ggpht.com/-3BKTe8YFlbA/AAAAAAAAAAI/AAAAAAAAAAA/ad0jqQ4IkGE/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" /><!--img=kuva elementti, joka on HUOMIO itsestään sulkeutuva eli ei ole perinteistä sulkuelementtiä. Muuten toimii kuten linkkielementti-->
+<img src="http://www.aha.io/assets/integration_logos/github-bb449e0ffbacbcb7f9c703db85b1cf0b.png" alt="Github logo" /><!--ALT elementti antaa kuvalle taustakommentin, joka näkyy kursorien vietyä kuvan päälle. Myös sokeat pystyvät kuuntelemaan luku-ohjelmilla kuvan alt elementin kautta. Tärkeä elementti.-->
+<a href="https://github.com/" target="_blank"><img src="https://www.wired.com/wp-content/uploads/2013/01/inspectocat.jpg" alt="Github Cat"/></a><!--Tässä luotiin ensin linkki, jolle luotiin anchor <a> elementillä kuva. Eli kuvaa klikkaamalla päästään nettisivulle-->
 </body>
 </html> <!--html koodin sulkeminen-->
