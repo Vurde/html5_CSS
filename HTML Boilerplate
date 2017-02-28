@@ -1,0 +1,9 @@
+<!DOCTYPE html> <!--Document type declaration tai "dokumentti julistus. Määrittää kielen, mitä käytetään"-->
+<html> <!--html koodin avaus-->
+<head> <!--head-elementti antaa selaimelle tietoa sivustosta. Ikäänkuin sivun tieto-otsikko. Näkyy selaimen Tab:ssa.-->
+<title>Minun harjoitussivustoni</title>
+</head> <!--sulkee sivuston tieto-otsikon-->
+<body> <!--body eli rakenne elementti aktivoi koodille mahdollisuuden avata sivuston yleisen rakentamisen-->
+
+</body>
+</html> <!--html koodin sulkeminen-->
