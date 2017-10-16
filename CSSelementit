@@ -1,1 +1,9 @@
-
+p {
+  font-family: Arial;
+} /* tällä voidaan muuttaa kappaleiden fonnteja */
+h1 {
+  color: maroon;
+  } /* otsikoiden värejä */
+.title{
+  color: teal;
+} /* luokkien ominaisuuksia. Esim. kaikki otsikot tietyn värisiä jne */
