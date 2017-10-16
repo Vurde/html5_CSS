@@ -1,5 +1,6 @@
 <!DOCTYPE html> <!--Document type declaration tai "dokumentti julistus. Määrittää kielen, mitä käytetään"-->
 <html> <!--html koodin avaus-->
+<link href="./style.css" type="text/css" rel="stylesheet"> <!--linkittää CSS tiedostoon. "Style" kohdetiedoston nimi (voi olla URL), "type" mikä tiedostotyyli, "rel" mikä rooli koodissa-->
 <head> <!--head-elementti antaa selaimelle tietoa sivustosta. Ikäänkuin sivun tieto-otsikko. Näkyy selaimen Tab:ssa.-->
 <title>Minun harjoitussivustoni</title>
 </head> <!--sulkee sivuston tieto-otsikon-->
